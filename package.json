@@ -1,0 +1,23 @@
+{
+  "name": "a11y-menu-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"start": "parcel src/index.html",
+	"build": "parcel build src/index.html"
+  },
+  "svelte": {
+	  "compilerOptions": {
+		  "css": false
+	  }
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-wikimedia": "^0.9.0",
+    "parcel-bundler": "^1.11.0",
+    "parcel-plugin-svelte": "^2.0.0",
+    "svelte": "^2.16.0"
+  }
+}
