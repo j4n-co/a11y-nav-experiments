@@ -1,6 +1,6 @@
 import App from './App.svelte'
 
-const target = document.body.appendChild(document.createElement('div'))
+const target = document.getElementById( 'app');
 
 const app = new App({
   target,
