@@ -1,4 +1,3 @@
-<!-- Aria roles should be added conditionally with JS-->
 <button class="menu-button" aria-label="{ariaLabel}" aria-expanded="{ariaExpanded}" on:click="toggleFlyoutMenu()" ref:menuButton>
 	<slot></slot>
 </button>
@@ -9,26 +8,24 @@
 	border: 0;
 	margin: 0;
 	background-color: inherit;
-
+	/** veritcal alignment of icon **/
 	line-height: 1.5rem;
 	padding: 0.5rem;
-}
-.menu-button:hover {
-	background-color: mintcream;
 }
 </style>
 
 <script>
 export default {
 	methods: {
-		// There should be some proper binding between the button and the menu
-		// not just some nextSibling shenanigans.
+		/**
+		 * Toggles flyout menu when clicking or entering the button.
+		 */
 		toggleFlyoutMenu() {
-			let button = this.refs.menuButton;
-			let expanded = button.getAttribute('aria-expanded') === 'true' || false;
-			let menu = button.nextElementSibling;
+			const button = this.refs.menuButton,
+				expanded = button.getAttribute('aria-expanded') === 'true' || false,
+				menu = button.nextElementSibling;
 			button.setAttribute('aria-expanded', String( !expanded ) );
-			menu.hidden = !menu.hidden;
+			if ( menu ) menu.classList.toggle( 'flyout-menu--open' );
 		}
 	}
 }

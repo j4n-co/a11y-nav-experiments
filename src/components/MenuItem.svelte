@@ -1,4 +1,4 @@
-<li class="menu-item {class}" {style}>
+<li class="menu-item" {style} ref:menuItem>
 	<slot>
 		I'm MenuItem.html default
 	</slot>
@@ -44,23 +44,10 @@
 .menu-item:last-child {
 	border-right: none;
 }
-.menu-item:focus,
-.menu-item:active {
-	background-color: blue;
-}
-/** menu item inside a flyout menu **/
-.flyout-menu :global(.menu-item) {
+
+/**a flyout menu inside a menu item **/
+:global(.menu-item) .flyout-menu  {
 	align-self: flex-start;
 }
 
 </style>
-
-<script>
-export default {
-	data() {
-		return {
-			class: ''
-		};
-	}
-};
-</script>

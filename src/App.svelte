@@ -1,36 +1,6 @@
-<h1>Classic menu</h1>
-<MenuBar itemLayout="first-wide" ariaLabel="old menu">
-	<MenuItem>
-		<MenuLink href="#" ariaLabel="Languages">
-			<Icon type="language"/>
-		</MenuLink>
-	</MenuItem>
-	<MenuItem>
-		<MenuLink href="#" ariaLabel="Download PDF">
-			<Icon type="download"/>
-		</MenuLink>
-	</MenuItem>
-	<MenuItem>
-		<MenuLink href="#" ariaLabel="Add to watchlist">
-			<Icon type="watchlist"/>
-		</MenuLink>
-	</MenuItem>
-	<MenuItem>
-		<MenuLink href="#" ariaLabel="Edit">
-			<Icon type="edit"/>
-		</MenuLink>
-	</MenuItem>
-</MenuBar>
-
-<h2>Some text</h2>
-<p>
-	Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit, aut non fuga beatae hic rem dolor officia incidunt, perspiciatis quos reiciendis quibusdam distinctio veritatis! Error pariatur voluptas minus ipsam!
-	Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit, aut non fuga beatae hic rem dolor officia incidunt, perspiciatis quos reiciendis quibusdam distinctio veritatis! Error pariatur voluptas minus ipsam!
-</p>
-
 <h1>New menu</h1>
 
-<MenuBar itemLayout="wide" ariaLabel="new menu">
+<MenuBar itemLayout="wide" ariaLabel="New menu">
 	<MenuItem>
 		<MenuLink ariaLabel="Languages">
 			<Icon type="language"/>
@@ -53,8 +23,8 @@
 	</MenuItem>
 
 	<MenuItem>
-		<MenuButton ariaLabel="page actions" ariaExpanded="false">
-			<Icon type="more"/>
+		<MenuButton ariaLabel="page actions" ariaExpanded="false" ariaHasPopup="true">
+			<Icon type="more" label="more"/>
 		</MenuButton>
 		<FlyoutMenu ariaLabel="flyout menu">
 			<MenuItem>
@@ -95,6 +65,42 @@
 
 	</MenuItem>
 </MenuBar>
+
+<h2>Some text</h2>
+<p>
+	Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit, aut non fuga beatae hic rem dolor officia incidunt, perspiciatis quos reiciendis quibusdam distinctio veritatis! Error pariatur voluptas minus ipsam!
+	Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit, aut non fuga beatae hic rem dolor officia incidunt, perspiciatis quos reiciendis quibusdam distinctio veritatis! Error pariatur voluptas minus ipsam!
+</p>
+
+
+<h1>Classic menu</h1>
+<MenuBar itemLayout="first-wide" ariaLabel="old menu">
+	<MenuItem>
+		<MenuLink href="#" ariaLabel="Languages">
+			<Icon type="language"/>
+		</MenuLink>
+	</MenuItem>
+	<MenuItem>
+		<MenuLink href="#" ariaLabel="Download PDF">
+			<Icon type="download"/>
+		</MenuLink>
+	</MenuItem>
+	<MenuItem>
+		<MenuLink href="#" ariaLabel="Add to watchlist">
+			<Icon type="watchlist"/>
+		</MenuLink>
+	</MenuItem>
+	<MenuItem>
+		<MenuLink href="#" ariaLabel="Edit">
+			<Icon type="edit"/>
+		</MenuLink>
+	</MenuItem>
+</MenuBar>
+
+<p>
+	Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit, aut non fuga beatae hic rem dolor officia incidunt, perspiciatis quos reiciendis quibusdam distinctio veritatis! Error pariatur voluptas minus ipsam!
+	Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit, aut non fuga beatae hic rem dolor officia incidunt, perspiciatis quos reiciendis quibusdam distinctio veritatis! Error pariatur voluptas minus ipsam!
+</p>
 
 <script>
 	export default {

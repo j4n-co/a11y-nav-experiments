@@ -12,13 +12,4 @@
 
 	display: flex;
 }
-.menu-link:hover {
-	background-color: mintcream;
-}
-
-/**
-Combined components
-**/
-:global(.icon) + .menu-link {
-}
 </style>
