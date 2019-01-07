@@ -12,6 +12,15 @@
 	line-height: 1.5rem;
 	padding: 0.5rem;
 }
+
+.menu-button:focus {
+	outline: 1px solid #36c;
+}
+
+.menu-button:active,
+.menu-button[aria-expanded="true"] {
+	outline: none;
+}
 </style>
 
 <script>

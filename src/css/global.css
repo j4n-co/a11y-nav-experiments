@@ -1,13 +1,12 @@
 body {
-	font-family: sans-serif;
+	font-family: 'Helvetica Neue','Helvetica','Nimbus Sans L','Arial','Liberation Sans',sans-serif;
 	font-size: 100%;
+	line-height: 1.4;
+	color: #222222;
+	background: #fff;
+	-webkit-tap-highlight-color: rgba(0,0,0,0.2);
 }
-/*
-body * {
-	outline: 1px solid rgba(255, 0, 0, 0.5);
-	background-color: rgba(255, 0, 0, 0.1);
-}
-*/
+
 .visuallyhidden:not(:focus):not(:active) {
 	clip: rect(0 0 0 0);
 	clip-path: inset(100%);
@@ -16,4 +15,40 @@ body * {
 	position: absolute;
 	white-space: nowrap;
 	width: 1px;
+}
+
+/**
+* Mediawiki overrides
+*/
+#page-actions {
+	overflow: visible;
+	padding: 0;
+}
+
+#page-actions li {
+	display: flex;
+}
+
+#page-actions li a {
+	position: static;
+	display: inline;
+	width: auto;
+	height: auto;
+	margin: 0;
+	cursor: pointer;
+}
+
+nav ul li a:hover {
+	box-shadow: none !important;
+}
+
+nav ul li {
+	border-top: none;
+}
+
+/** This is a lie, it only works for headings with 1 line */
+.pre-content.heading-holder {
+	position: sticky;
+	top: -4.6em;
+	z-index: 111;
 }

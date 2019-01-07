@@ -6,12 +6,20 @@
 </nav>
 
 <style>
+
+nav {
+	width: 100%;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
 .menubar {
 	margin: 0;
 	padding: 0;
 	background-color: white;
 	display: flex;
-	box-shadow: 0px 6px 6px -6px rgba(0,0,0,0.1);
 }
 
 .menubar.menubar--wide {

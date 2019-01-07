@@ -1,0 +1,4 @@
+If Parcel.js wants a file called "&" in this location, then that's what it gets!
+
+But really, this file is here because Parcel scans all the URLs in the demo page,
+and there must have been a URL with an ampersand it there somewhere.

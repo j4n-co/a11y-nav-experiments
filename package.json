@@ -4,11 +4,12 @@
  "description": "",
  "main": "index.js",
  "scripts": {
-  "start": "parcel src/index.html",
-  "build": "parcel build src/index.html  --no-minify --no-cache"
+  "start": "parcel src/*.html --no-cache",
+  "build": "parcel build src/*.html  --no-minify --no-cache"
  },
  "svelte": {
   "compilerOptions": {
+   "hydratable": true,
    "css": false
   }
  },

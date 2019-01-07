@@ -33,16 +33,24 @@
 
 	align-items: start;
 
-	max-height: 2.5rem;
-
 	flex-direction: column;
 
-	max-height: 2.5rem;
-	min-height: 2.5rem;
+	max-height: 43px;
 
+	/* matching existing dimensions */
+	min-width: 61px;
+	min-height: 43px;
 }
 .menu-item:last-child {
 	border-right: none;
+	min-width: auto;
+}
+
+.menu-item:first-child :global( .menu-link ) {
+	padding-left: 0;
+}
+.menu-item:last-child :global( .menu-link ) {
+	padding-right: 0;
 }
 
 /**a flyout menu inside a menu item **/

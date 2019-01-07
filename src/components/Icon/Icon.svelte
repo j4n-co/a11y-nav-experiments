@@ -1,15 +1,15 @@
 <!--
 	https://egghead.io/lessons/css-accessible-icon-buttons
 -->
-<i class="icon { ( type ) ? `icon--${type}` : undefined }">
+<i class="icon { ( type ) ? `icon--${type}` : '' }">
 	{#if label}<span class="visuallyhidden">{label}</span>{/if}
 </i>
 
 <style>
 .icon {
 	display: inline-block;
-	width: 1.5rem;
-	height: 1.5rem;
+	width: 24px;
+	height: 24px;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -42,12 +42,4 @@
 .icon.icon--more {
 	background-image: url('./icon-more.svg');
 }
-
-/**
-combined components
-**/
-
-.menu-link > .icon {
-}
-
 </style>

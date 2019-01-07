@@ -12,4 +12,8 @@
 
 	display: flex;
 }
+
+.menu-link:focus {
+	outline: 1px solid #36c;
+}
 </style>

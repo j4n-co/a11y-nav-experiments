@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>permalink</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="page" transform="translate(-150.000000, -437.000000)" fill="#54595D" fill-rule="nonzero">
+            <g id="Group-5" transform="translate(150.000000, 306.000000)">
+                <g id="Group-13" transform="translate(0.000000, 126.500000)">
+                    <path d="M1.71,9.5 C1.71,7.961 2.961,6.71 4.5,6.71 L8.1,6.71 L8.1,5 L4.5,5 C2.016,5 0,7.016 0,9.5 C0,11.984 2.016,14 4.5,14 L8.1,14 L8.1,12.29 L4.5,12.29 C2.961,12.29 1.71,11.039 1.71,9.5 Z M5.4,10.4 L12.6,10.4 L12.6,8.6 L5.4,8.6 L5.4,10.4 Z M13.5,5 L9.9,5 L9.9,6.71 L13.5,6.71 C15.039,6.71 16.29,7.961 16.29,9.5 C16.29,11.039 15.039,12.29 13.5,12.29 L9.9,12.29 L9.9,14 L13.5,14 C15.984,14 18,11.984 18,9.5 C18,7.016 15.984,5 13.5,5 Z" id="permalink"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
