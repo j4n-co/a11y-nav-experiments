@@ -27,36 +27,36 @@
 		<FlyoutMenu ariaLabel="flyout menu">
 			<MenuItem>
 				<MenuButton>
-					<Icon type="language"/>Download PDF
+					<Icon type="download"/>Download PDF
 				</MenuButton>
 			</MenuItem>
 
 			<MenuItem>
 				<MenuLink>
-					<Icon type="download"/> Page Information
+					<Icon type="info"/> Page Information
 				</MenuLink>
 			</MenuItem>
 
 			<MenuItem>
 				<MenuLink>
-					<Icon type="watchlist"/>Permanent link
+					<Icon type="permalink"/>Permanent link
 				</MenuLink>
 			</MenuItem>
 			<MenuItem>
 				<MenuLink>
-					<Icon type="edit"/>View links to this page
-				</MenuLink>
-			</MenuItem>
-
-			<MenuItem>
-				<MenuLink>
-					<Icon/>View wikidata item
+					<Icon type="links"/>View links to this page
 				</MenuLink>
 			</MenuItem>
 
 			<MenuItem>
 				<MenuLink>
-					Cite this page
+					<Icon type="data"/>View wikidata item
+				</MenuLink>
+			</MenuItem>
+
+			<MenuItem>
+				<MenuLink>
+					<Icon type="quote"/>Cite this page
 				</MenuLink>
 			</MenuItem>
 		</FlyoutMenu>
